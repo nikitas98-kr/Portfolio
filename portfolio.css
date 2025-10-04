@@ -119,17 +119,17 @@ header .follow a:hover {
   display: none;
 }
 
-/* .cursor-1 {
+.cursor-1 {
   position: absolute;
   top: 0;
   left: 0;
   height: 1rem;
   width: 1rem;
   background: var(--main-color);
-  pointer-events: non;
+  pointer-events: none;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  z-index: 10000;
+  z-index: 9999;
 }
 .cursor-1.active {
   height: 7rem;
@@ -143,15 +143,15 @@ header .follow a:hover {
   height: 4rem;
   width: 4rem;
   border: 0.1rem solid var(--main-color);
-  pointer-events: non;
+  pointer-events: none;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  z-index: 10000;
+  z-index: 9999;
   transition: 0.3s linear;
 }
 .cursor-2.active {
   display: none;
-} */
+}
 
 .home {
   display: flex;
@@ -510,16 +510,16 @@ header .follow a:hover {
     display: initial;
   }
   header {
-    left: 120%;
+    left: -120%;
   }
   header.active {
     left: 0%;
   }
 
-  /* .cursor-1,
+  .cursor-1,
   .cursor-2 {
     display: none;
-  } */
+  }
 }
 
 @media (max-width: 450px) {
