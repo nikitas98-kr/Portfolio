@@ -1,0 +1,127 @@
+@media (max-width: 1024px) {
+  .blog-left h3 {
+    font-size: 28px;
+  }
+  .blog-right h4 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blog-in {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+  .blog-left {
+    margin-bottom: 10px;
+  }
+  .blog-left h3 {
+    font-size: 25px;
+  }
+  .blog-right h4 {
+    font-size: 16px;
+  }
+  .blog-right p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1400px) {
+  header {
+    padding: 15px 5%;
+  }
+  section {
+    padding: 70px 5% 70px;
+  }
+  .banner {
+    padding: 10px 5% 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  header {
+    padding: 15px 2%;
+  }
+  section {
+    padding: 70px 2% 70px;
+  }
+  .banner {
+    padding: 10px 2% 10px;
+  }
+  :root {
+    --h1-font: 5rem;
+    --h2-font: 2.3rem;
+    --p-font: 1rem;
+  }
+  .cta-content {
+    font-size: 3.4rem;
+  }
+  .store-content {
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  }
+  .banner-content {
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+  }
+  .scroll-button {
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.2;
+  }
+}
+@media (max-width: 1070px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .navlist {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 350px;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px 0;
+    box-shadow: 0px 20px 20px rgba(15 54 55 / 20%);
+    clip-path: circle(144% at 0% 0%);
+    transition: all 0.55s ease-in-out;
+  }
+  .navlist a {
+    display: block;
+    padding: 0;
+    margin-bottom: 22px;
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: none;
+  }
+  .navlist a:hover {
+    border-bottom: none;
+  }
+  .navlist.open {
+    right: 0;
+    background: rgba(62, 39, 35, 0.75);
+    backdrop-filter: blur(6px);
+  }
+}
+@media (max-width: 700px) {
+  :root {
+    --h1-font: 3.4rem;
+    --h2-font: 2rem;
+    --p-font: 15px;
+  }
+  .cta-content {
+    font-size: 2.8rem;
+  }
+  .banner-in h3 {
+    margin: 5px 0;
+    font-size: 24px;
+  }
+  .b-btnn {
+    padding: 7px 20px;
+  }
+  .banner-content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+}
