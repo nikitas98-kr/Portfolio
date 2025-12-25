@@ -1,0 +1,58 @@
+@media (max-width: 991px) {
+  .testimonial-section .carousel-item .carousel-caption p {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.0628rem;
+  }
+
+  .testimonial-section .carousel-item {
+    padding: 11rem 3.125rem;
+  }
+
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .testimonial-section .carousel-item {
+    padding: 13rem 3.125rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .home {
+    background-position: 50%;
+  }
+}
+@media (max-width: 450px) {
+  .home .content h5 {
+    font-size: 25px;
+  }
+  .home .content h1 {
+    font-size: 38px;
+  }
+  .home .content p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 765px) {
+  .book {
+    padding: 0;
+  }
+  .main-text h1 {
+    padding: 20px;
+  }
+  .about {
+    padding: 0;
+  }
+}
