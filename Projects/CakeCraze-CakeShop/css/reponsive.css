@@ -1,0 +1,59 @@
+@media screen and (max-width: 982px) {
+  #about p {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 766px) {
+  #about p {
+    font-size: 15px;
+  }
+  #about {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-cards {
+    height: 170vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .top-cards {
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 370px) {
+  #home .content {
+    padding-right: 30px;
+    text-align: center;
+  }
+  #home .content h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .top-cards {
+    height: 120vh;
+  }
+  .about h3 {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .contact .container {
+    background: white;
+  }
+  #col {
+    width: 100%;
+    background: #b24c4c;
+  }
+  .contact {
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact input {
+    width: 250px;
+  }
+}
