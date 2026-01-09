@@ -458,6 +458,42 @@ header .follow a:hover {
   background: var(--main-color);
   color: #fff;
 }
+
+/* Live Project Cards */
+.live-project {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.live-content i {
+  font-size: 3rem;
+  color: #f9ca24;
+  margin-bottom: 1rem;
+}
+
+.live-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.live-content p {
+  font-size: 1.4rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.live-content .btn:hover {
+  background: #000;
+  color: #fff;
+}
+
 .contact .icons-container {
   display: flex;
   gap: 1.5rem;
@@ -539,6 +575,7 @@ header .follow a:hover {
     padding-right: 0;
   }
 }
+
 
 
 
