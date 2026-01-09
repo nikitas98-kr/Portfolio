@@ -392,10 +392,18 @@ header .follow a:hover {
   padding: 0.4rem 1rem;
 }
 
+
 .experience .box-container .box .content h3 {
   font-size: 2.5rem;
   padding: 0.5rem 0;
   color: #111;
+}
+
+.experience .box-container .box .content h4 {
+     font-size: 18px;
+    padding-top: 12px;
+        text-decoration: underline;
+
 }
 .experience .box-container .box .content p {
   font-size: 1.5rem;
@@ -575,6 +583,7 @@ header .follow a:hover {
     padding-right: 0;
   }
 }
+
 
 
 
